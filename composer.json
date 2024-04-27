@@ -1,0 +1,21 @@
+{
+    "name": "hxw/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hxw",
+            "email": "1040122957@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hxw\\Weather\\": "./src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "phpunit/phpunit": "^9.6",
+        "mockery/mockery": "^1.6"
+    }
+}
