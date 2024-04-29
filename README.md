@@ -5,7 +5,7 @@
 ## 安装
 
 ```sh
-$ composer require overtrue/weather -vvv
+$ composer require nhhxw/weather -vvv
 ```
 
 ## 配置
@@ -15,7 +15,7 @@ $ composer require overtrue/weather -vvv
 ## 使用
 
 ```php
-use Overtrue\Weather\Weather;
+use Nhhxw\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 

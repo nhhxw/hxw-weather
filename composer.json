@@ -1,16 +1,16 @@
 {
-    "name": "hxw/weather",
+    "name": "nhhxw/weather",
     "description": "A weather SDK.",
     "license": "MIT",
     "authors": [
         {
-            "name": "hxw",
+            "name": "nhhxw",
             "email": "1040122957@qq.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Hxw\\Weather\\": "./src"
+            "Nhhxw\\Weather\\": "./src"
         }
     },
     "require": {
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hxw\\Weather\\ServiceProvider"
+                "Nhhxw\\Weather\\ServiceProvider"
             ]
         }
     }

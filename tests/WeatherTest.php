@@ -1,15 +1,15 @@
 <?php
 
-namespace Hxw\Weather\Tests;
+namespace Nhhxw\Weather\Tests;
 
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
 use Mockery\Matcher\AnyArgs;
-use Hxw\Weather\Exceptions\HttpException;
-use Hxw\Weather\Exceptions\InvalidArgumentException;
-use Hxw\Weather\Weather;
+use Nhhxw\Weather\Exceptions\HttpException;
+use Nhhxw\Weather\Exceptions\InvalidArgumentException;
+use Nhhxw\Weather\Weather;
 use PHPUnit\Framework\TestCase;
 
 class WeatherTest extends TestCase

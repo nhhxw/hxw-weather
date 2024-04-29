@@ -1,10 +1,10 @@
 <?php
 
-namespace Hxw\Weather;
+namespace Nhhxw\Weather;
 
 use GuzzleHttp\Client;
-use Hxw\Weather\Exceptions\HttpException;
-use Hxw\Weather\Exceptions\InvalidArgumentException;
+use Nhhxw\Weather\Exceptions\HttpException;
+use Nhhxw\Weather\Exceptions\InvalidArgumentException;
 
 class Weather
 {

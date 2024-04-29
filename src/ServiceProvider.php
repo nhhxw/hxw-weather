@@ -1,6 +1,6 @@
 <?php
 
-namespace Hxw\Weather;
+namespace Nhhxw\Weather;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
